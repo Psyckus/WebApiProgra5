@@ -1,0 +1,5 @@
+C:\Users\Usuario\source\repos\PruebaLogin2\Capa_Datos\bin\Release\Capa_Datos.dll
+C:\Users\Usuario\source\repos\PruebaLogin2\Capa_Datos\bin\Release\Capa_Datos.pdb
+C:\Users\Usuario\source\repos\PruebaLogin2\Capa_Datos\obj\Release\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\PruebaLogin2\Capa_Datos\obj\Release\Capa_Datos.dll
+C:\Users\Usuario\source\repos\PruebaLogin2\Capa_Datos\obj\Release\Capa_Datos.pdb

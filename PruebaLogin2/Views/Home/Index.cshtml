@@ -1,0 +1,85 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iniciar sesión</title>
+    <!-- Incluir referencia a SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.all.min.js"></script>
+    <style>
+        /* Estilos para el contenedor del formulario */
+        .login-container {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Estilos para los campos de entrada de texto */
+        .login-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        /* Estilos para el botón de inicio de sesión */
+        .login-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        /* Estilos para el mensaje de error */
+        .error-message {
+            color: #ff0000;
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            background-color: #ffe6e6;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ff0000;
+        }
+
+        .h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Mostrar mensaje de error utilizando SweetAlert2 -->
+
+
+
+    <div class="login-container">
+        <h1>Iniciar sesion</h1>
+        <form method="post" action="@Url.Action("Index","Home")">
+
+            <input type="text" id="Usuario" name="Usuario" placeholder="Usuario" class="login-input">
+
+            <input type="password" id="Clave" name="Clave" placeholder="password" class="login-input">
+            <button type="submit" class="login-button">Iniciar sesion</button>
+        </form>
+        @if (!string.IsNullOrEmpty(ViewBag.Error))
+        {
+            <div class="error-message">
+                @ViewBag.Error
+            </div>
+        }
+    </div>
+
+    <!-- Incluir referencia a SweetAlert2 -->
+
+</body>
+</html>

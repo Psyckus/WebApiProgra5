@@ -1,0 +1,6 @@
+C:\Users\Usuario\source\repos\PruebaLogin2\Capa_Entidad\bin\Release\Capa_Entidad.dll
+C:\Users\Usuario\source\repos\PruebaLogin2\Capa_Entidad\bin\Release\Capa_Entidad.pdb
+C:\Users\Usuario\source\repos\PruebaLogin2\Capa_Entidad\obj\Release\Capa_Entidad.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\PruebaLogin2\Capa_Entidad\obj\Release\Capa_Entidad.dll
+C:\Users\Usuario\source\repos\PruebaLogin2\Capa_Entidad\obj\Release\Capa_Entidad.pdb
+C:\Users\Usuario\source\repos\PruebaLogin2\Capa_Entidad\obj\Release\Capa_Entidad.csproj.AssemblyReference.cache
